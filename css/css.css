@@ -1,0 +1,150 @@
+nav ul{
+    display: inline;
+    text-align: right;
+    
+}
+nav li{
+    display: inline;
+    margin-left:50 ;
+    text-align: right;
+}
+#home{
+    background-image: url(../imgs/hat.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0;
+}
+nav{
+    border-color: hsl(0, 100%, 2%);
+    border-style: dashed;
+    background-color: hsl(208, 100%, 97%,0) ;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    height: 5%;
+    vertical-align: top;
+    padding-top: 1.5%;
+    display: inline-block;
+}
+#IbnWord{
+    text-align: center;
+    font-size: 28;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: -20;
+    height: 10%;
+}
+.icon{
+    width: 40;
+    height:40;
+}
+.divContact {
+text-align: right;
+color:white;
+
+
+}
+#about{
+    background-color: hsl(0, 100%, 2%,0);
+}
+#homeiframe
+{
+    width: 80%;
+    height:80%;
+    margin-right:0 ;
+    margin-left: auto;
+    margin-top: 20;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    margin-right: 0;
+    margin-left: auto;
+    border:none;
+}
+.sign{
+    font-size: 28;
+}
+input{
+    width: 200;
+    height: 30;
+    border-color: aliceblue;
+    border-style: solid;
+    background-color: hsl(0, 100%, 2%,.5);
+    color: aliceblue;
+
+}
+.signin{
+    width: 200;
+    height: 50;
+    margin-right: 200;
+    background-color:rgb(22, 124, 100,1);
+    color: aliceblue;
+    font-size: 20;
+}
+button:hover{
+    color: gold;
+    font-size: 30;
+}
+
+.subM{
+    display: none; 
+}
+
+.menu:hover .subM
+{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left:27.5% ;
+    width: 100;
+   
+       
+}
+
+.subM li{
+    border-bottom: solid;
+    color: #fff;
+    width: 110;
+    padding-bottom: 10;
+    
+    
+}
+
+.subM a{
+    color: white;
+    text-decoration: none;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+li{
+   
+    color: #fff;
+    width: 150;
+    height: 100%;
+    font-size: 20;
+    background-color: gray;
+    
+    
+}
+li a{
+    color: #fff;
+    width: 80;
+    vertical-align: top;
+}
+legend{
+    color:darkorange;
+    font-size: 18;
+}   
+fieldset{
+    width: fit-content;
+    height: fit-content;
+    margin-right: 0;
+    margin-left:auto ;
+}
